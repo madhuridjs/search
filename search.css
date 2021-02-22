@@ -1,0 +1,41 @@
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: linear-gradient(rgba(19, 199, 231, 0.342), rgba(14, 212, 202, 0.349)), url("background.jpg");
+    background-size: cover;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+
+}
+
+#search_input{
+    width : 130px;
+    font-size: 16px; 
+    padding: 10px; 
+    border: 1px solid #ddd; 
+    border-radius: 10px;
+    border: 1px black solid;
+   
+  }
+  #breeds {
+    border-collapse: collapse;
+    width: 500px;
+    border: 1px solid #ddd;
+    font-size: 18px;
+    margin-top: 250px;
+    margin-left: -100px;
+  }
+  #breeds th, #breeds td {
+    text-align: left;
+    padding: 12px;
+  }
+  
+  #breeds tr {
+    border-bottom: 1px solid #ddd;
+    background-color: #bbdefb;
+  }
+
+  #breeds tr.header, #breeds tr:hover {
+    background-color:#0288d1;
+  }
+  
